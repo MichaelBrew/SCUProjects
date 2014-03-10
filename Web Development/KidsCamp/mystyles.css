@@ -1,0 +1,197 @@
+body {
+	font-family: 'Wellfleet';
+}
+
+.content {
+  background-color: #E0F5FF;
+  height:100%;
+}
+
+#shop img {
+    border:1px solid black;
+    padding:5px;
+    background-color:white;
+}
+
+#title {
+	font-size: 75px;
+	text-align: center;
+	margin-top: 20px;
+	width:100%;
+	font-family: 'Wellfleet';
+}
+
+#login, #loggedin {
+	right:20px;
+	margin-right:10px;
+	position: absolute;
+}
+
+#login input {
+	float:right;
+}
+
+#window {
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+#activity {
+	margin-left: 30px;
+	padding: 10px;
+}
+
+#requirements {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #DCF0F5;
+
+	padding: 10px;
+	margin-top: 40px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#locations {
+	float:right;
+	width:600px;
+	height:500px;
+	margin-right:70px;
+	margin-top: 10px;
+	margin-left:70px;
+	margin-bottom: 40px;
+}
+
+#registrationWrapper {
+	margin: 0 auto;
+	display:inline-block;
+	float:right;
+	position:relative;
+	width:95%;
+}
+
+#registrationArea {
+	width:570px;
+	margin-top:30px;
+	display:inline-block;
+}
+
+#schedule {
+	width:370px;
+	display:inline-block;
+	margin-right:200px;
+	position:relative;
+	bottom:270px;
+}
+
+#schedule li {
+	padding:5px;
+}
+
+#creditpayment {
+	width:500px;
+	height:140px;
+	background-color: #498FE1;
+	border:1px solid #498FE1;
+	border-radius: 20px;
+	padding:20px;
+}
+
+#creditpayment1 {
+	width:570px;
+	height:140px;
+	background-color: #498FE1;
+	border:1px solid #498FE1;
+	border-radius: 20px;
+	padding:20px;
+}
+
+#navBar ul {
+	list-style-type: none;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#navBar ul li {
+	display:inline-block;
+}
+
+#navBar ul li a {
+	display:block;
+	padding: 20px 20px;
+}
+
+#navBar ul li:hover {
+	background-color: #66A3FF;
+}
+
+label {
+	width: 200px;
+	clear:left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#creditpayment label {
+	width: 150px;
+}
+
+input, label, select {
+	display: inline-block;
+	float: left;
+}
+
+footer {
+	position: relative;
+	bottom:10px;
+	left:10px;
+}
+
+td {
+	padding: 10px;
+}
+
+nav {
+	width: 100%;
+	background-color: #498FE1;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 100px;
+	color: white;
+	font-size: 20px;
+}
+
+input.error { border: 1px solid red; }
+label.error {
+	background: url('x.png') no-repeat;
+	padding-left: 20px;
+	margin-left: .3em;
+	font-size: 12px;
+	height:16px;
+	display: inline-block;
+	text-align: left;
+	clear: none;
+	width:140px;
+	
+	float:left;
+}
+
+#creditpayment label.error {
+	width:120px;
+}
+#creditpayment label.valid {
+	width:20px;
+}
+label.valid {
+	background: url('checkmark.png') no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
