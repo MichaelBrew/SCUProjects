@@ -101,13 +101,16 @@ const StudentRecord& StudentRecord::operator=(const StudentRecord& other) {
 
 //Overloading << operator to print out each variable of a StudentRecord on a new line, returning ostream reference
 ostream& operator<<(ostream& out_str, StudentRecord& other) {
-      out_str << "First name: " << other.getFirstName() << endl << "Last name: " << other.getLastName() << endl << "ID: " << other.getID() << endl << "GPA: " << other.getGPA() << endl << "Enrollment: " << other.getEnrollment() << endl << "Number enrolled: " << other.getNumEnroll() << endl;
+      out_str << "First name: " << other.getFirstName() << endl << "Last name: " << other.getLastName() 
+            << endl << "ID: " << other.getID() << endl << "GPA: " << other.getGPA() << endl << "Enrollment: " 
+            << other.getEnrollment() << endl << "Number enrolled: " << other.getNumEnroll() << endl;
       return out_str;
 }
 
 //Overloading >> operator to take in each variable of a StudentRecord separated by a space, returning istream reference
 istream& operator>>(istream& in_str, StudentRecord& other) {
-      in_str >> other._firstName >> other._lastName >> other._id >> other._gpa >> *(other._enrollment) >> other._numEnroll;
+      in_str >> other._firstName >> other._lastName >> other._id >> other._gpa >> *(other._enrollment) 
+            >> other._numEnroll;
       return in_str;
 }
 
